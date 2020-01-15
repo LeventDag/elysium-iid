@@ -1,0 +1,12 @@
+<table>
+  <tr *ngFor="let image of images_mapping; let i = index">
+    <td>
+      <img
+        viewBox="0 0 400 400"
+        preserveAspectRatio="xMidYMid slice"
+        [src]="image"
+        (click)="selectedLanguage(i)"
+      />
+    </td>
+  </tr>
+</table>

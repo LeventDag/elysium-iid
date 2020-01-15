@@ -1,0 +1,11 @@
+table,
+tr,
+td {
+  width: 100%;
+}
+
+img {
+  height: 50vh;
+  outline-style: solid;
+  outline-color: black;
+}
